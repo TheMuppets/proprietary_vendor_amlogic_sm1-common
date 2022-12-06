@@ -18,9 +18,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Adt3SuwCustomization",
+	name: "DeadpoolService",
 	owner: "amlogic",
-	apk: "proprietary/product/priv-app/Adt3SuwCustomization/Adt3SuwCustomization.apk",
+	apk: "proprietary/product/priv-app/DeadpoolService/DeadpoolService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -41,34 +41,10 @@ android_app_import {
 	product_specific: true,
 }
 
-android_app_import {
-	name: "DeadpoolServiceBtServices",
-	owner: "amlogic",
-	apk: "proprietary/system_ext/priv-app/DeadpoolServiceBtServices/DeadpoolServiceBtServices.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "droidlogic-res",
-	owner: "amlogic",
-	apk: "proprietary/system_ext/priv-app/droidlogic-res/droidlogic-res.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
 dex_import {
-	name: "droidlogic",
+	name: "droidlogic.software.core",
 	owner: "amlogic",
-	jars: ["proprietary/vendor/framework/droidlogic.jar"],
+	jars: ["proprietary/vendor/framework/droidlogic.software.core.jar"],
 	soc_specific: true,
 }
 
@@ -94,6 +70,15 @@ prebuilt_etc_xml {
 	name: "android.hardware.health@2.1-servcie.droidlogic",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1-servcie.droidlogic.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.oemlock@1.0-service.droidlogic",
+	owner: "amlogic",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

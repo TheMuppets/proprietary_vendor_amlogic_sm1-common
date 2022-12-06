@@ -16,7 +16,7 @@
 
 <permissions>
     <library name="droidlogic.software.core"
-            file="/vendor/framework/droidlogic.jar" />
+            file="/vendor/framework/droidlogic.software.core.jar" />
     <privapp-permissions package="com.droidlogic">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>

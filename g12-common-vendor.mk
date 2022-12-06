@@ -17,27 +17,16 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3838.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3839.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_7545_Product_0021.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_7545_Product_0021.kl \
+    vendor/amlogic/g12-common/proprietary/product/etc/permissions/com.google.android.tv.dfuservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.tv.dfuservice.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \
+    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-deadpool.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-lineage.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-lineage.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google_atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_atv.xml \
     vendor/amlogic/g12-common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
-    vendor/amlogic/g12-common/proprietary/system_ext/bin/blur_sysprop_notifier:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/blur_sysprop_notifier \
-    vendor/amlogic/g12-common/proprietary/system_ext/bin/param_set:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/param_set \
-    vendor/amlogic/g12-common/proprietary/system_ext/etc/init/blur_sysprop_notifier.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/blur_sysprop_notifier.rc \
-    vendor/amlogic/g12-common/proprietary/system_ext/etc/permissions/droidlogic_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/droidlogic_permissions.xml \
-    vendor/amlogic/g12-common/proprietary/system_ext/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-deadpool.xml \
     vendor/amlogic/g12-common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm.graphics-V1-ndk_platform.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libamgralloc_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libamgralloc_ext.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libjniuevent.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libjniuevent.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libmediahal_mediasync.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahal_mediasync.system.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libmediahal_resman.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahal_resman.system.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libmediahal_tsplayer.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahal_tsplayer.system.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/libmediahal_videodec.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahal_videodec.system.so \
-    vendor/amlogic/g12-common/proprietary/system_ext/lib/vendor.amlogic.hardware.systemcontrol@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.amlogic.hardware.systemcontrol@1.0.so \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
     vendor/amlogic/g12-common/proprietary/vendor/bin/esplayer:$(TARGET_COPY_OUT_VENDOR)/bin/esplayer \
@@ -48,10 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.health@2.1-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service.droidlogic \
+    vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.power.aidl-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.aidl-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/oemcrypto_cas_test:$(TARGET_COPY_OUT_VENDOR)/bin/oemcrypto_cas_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/remotecfg:$(TARGET_COPY_OUT_VENDOR)/bin/remotecfg \
     vendor/amlogic/g12-common/proprietary/vendor/bin/systemcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/systemcontrol \
     vendor/amlogic/g12-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
@@ -66,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.health@2.1-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.droidlogic.rc \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.power-service.libperfmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.libperfmgr.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.usb.gadget@1.2-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget@1.2-service.droidlogic.rc \
@@ -80,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_2G.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_2G.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_512M.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_512M.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.software.cant_save_state.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.cant_save_state.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
@@ -92,8 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/amlogic/g12-common/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/amlogic/g12-common/proprietary/vendor/etc/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/wifi/p2p_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant.conf \
     vendor/amlogic/g12-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/amlogic/g12-common/proprietary/vendor/lib/android.hardware.graphics.composer@2.1-resources-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.composer@2.1-resources-vendor.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/android.hardware.graphics.composer@2.2-resources-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.composer@2.2-resources-vendor.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
@@ -122,20 +113,16 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamavutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamavutils.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamgralloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamgralloc_ext.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamladecs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamladecs.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libamlaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlaudiohal.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libamlaudiohal@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlaudiohal@7.0.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libamlaudiohal_deathhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlaudiohal_deathhandler.so \
+    vendor/amlogic/g12-common/proprietary/vendor/lib/libamlaudiohal.7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlaudiohal.7.0.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamlaudiorc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlaudiorc.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libamlmediautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlmediautils.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlparser.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamlresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlresampler.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamlspeed.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlspeed.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamltinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamltinyalsa.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libcasoemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcasoemcrypto.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdatachunkqueue_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatachunkqueue_alt.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libdec_ca_wvcas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdec_ca_wvcas.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdisppower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisppower.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdroidaudiospdif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdroidaudiospdif.so \
+    vendor/amlogic/g12-common/proprietary/vendor/lib/libdsm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsm.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdvbaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdvbaudioutils.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libfaad.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfaad.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libfbc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfbc.so \
@@ -168,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libthreadworker_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadworker_alt.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libvideotunnel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideotunnel.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/mediacas/libwvmediacas.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libwvmediacas.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/modules/amlogic_fbc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/amlogic_fbc_lib.ko \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libavl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libavl.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libbalance.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbalance.so \
@@ -189,8 +175,10 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3838.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3839.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_005d_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_005d_Product_0001.kl \
+    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_005d_Product_0002.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_005d_Product_0002.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0484_Product_5738.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0484_Product_5738.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0508_Product_0110.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0508_Product_0110.kl \
+    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0957_Product_0006.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0957_Product_0006.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0c45_Product_1109.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0c45_Product_1109.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_1915_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1915_Product_0001.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_7045_Product_1820.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_7045_Product_1820.kl \
@@ -200,14 +188,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Adt3LauncherCustomization \
-    Adt3SuwCustomization \
+    DeadpoolService \
     DfuService \
-    DeadpoolServiceBtServices \
-    droidlogic-res \
-    droidlogic \
+    droidlogic.software.core \
     android.hardware.dumpstate@1.1-service.droidlogic \
     android.hardware.graphics.composer@2.4-service.droidlogic \
     android.hardware.health@2.1-servcie.droidlogic \
+    android.hardware.oemlock@1.0-service.droidlogic \
     android.hardware.power-service \
     android.hardware.thermal@2.0-service.droidlogic \
     android.hardware.usb.gadget@1.2-service.droidlogic \
