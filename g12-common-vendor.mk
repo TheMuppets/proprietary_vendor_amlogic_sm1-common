@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libomx_worker_peer_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_worker_peer_alt.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libperfmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfmgr.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libpqcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqcontrol.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libsecmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecmem.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libsonic_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsonic_ext.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libsystemcontrolservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystemcontrolservice.so \
