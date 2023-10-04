@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_2G.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_2G.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_512M.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_512M.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.software.cant_save_state.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.cant_save_state.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
@@ -221,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/tee_hdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_hdcp.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/tee_key_inject.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_key_inject.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/tee_preload_fw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_preload_fw.rc \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libplayreadymediadrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayreadymediadrmplugin.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libtee_load_video_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtee_load_video_fw.so \
