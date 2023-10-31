@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3838.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3839.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_7545_Product_0021.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_7545_Product_0021.kl \
+    vendor/amlogic/g12-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
     vendor/amlogic/g12-common/proprietary/vendor/bin/esplayer:$(TARGET_COPY_OUT_VENDOR)/bin/esplayer \
@@ -59,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_2G.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_2G.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_512M.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_512M.txt \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.software.cant_save_state.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.cant_save_state.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
