@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libthreadworker_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadworker_alt.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/modules/amlogic_fbc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/amlogic_fbc_lib.ko \
+    vendor/amlogic/g12-common/proprietary/vendor_dlkm/lib/modules/amlogic_fbc_lib.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/amlogic_fbc_lib.ko \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libavl.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libavl.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libbalance.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbalance.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libdbx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdbx.so \
