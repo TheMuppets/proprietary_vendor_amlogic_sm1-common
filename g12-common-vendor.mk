@@ -183,7 +183,6 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(PRODUCT_IS_ATV),true)
 PRODUCT_COPY_FILES += \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/com.google.android.tv.dfuservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.tv.dfuservice.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-deadpool.xml \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
@@ -196,8 +195,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Adt3LauncherCustomization \
-    DeadpoolService \
-    DfuService
+    DeadpoolService
 endif
 
 ifneq ($(TARGET_HAS_TEE),false)
