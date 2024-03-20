@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.2-service.droidlogic \
     manifest_android.hardware.drm@1.4-service.widevine
 
+PRODUCT_PACKAGES += \
+    libGLES_mali_vulkan.amlogic_symlink32
+
 ifeq ($(PRODUCT_IS_ATV),true)
 PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \

@@ -77,6 +77,13 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "libGLES_mali_vulkan.amlogic_symlink32",
+	soc_specific: true,
+	installed_location: "lib/hw/vulkan.amlogic.so",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
 android_app_import {
 	name: "Adt3LauncherCustomization",
 	owner: "amlogic",
