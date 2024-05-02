@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.0.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.1.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Generic.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Generic.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0002_Product_0002.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0002_Product_0002.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3838.kl \
     vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3839.kl \
