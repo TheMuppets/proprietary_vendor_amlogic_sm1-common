@@ -11,12 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/odm/etc/tvconfig/pq/pq_default.ini:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/pq/pq_default.ini \
     vendor/amlogic/g12-common/proprietary/odm/lib/libHwAudio_dcvdec.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dcvdec.so \
     vendor/amlogic/g12-common/proprietary/odm/lib/libHwAudio_dtshd.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dtshd.so \
-    vendor/amlogic/g12-common/proprietary/odm/usr/idc/Vendor_000d_Product_3838.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/Vendor_000d_Product_3838.idc \
-    vendor/amlogic/g12-common/proprietary/odm/usr/idc/Vendor_000d_Product_3839.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/Vendor_000d_Product_3839.idc \
-    vendor/amlogic/g12-common/proprietary/odm/usr/idc/Vendor_7545_Product_0021.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/Vendor_7545_Product_0021.idc \
-    vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3838.kl \
-    vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3839.kl \
-    vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_7545_Product_0021.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_7545_Product_0021.kl \
     vendor/amlogic/g12-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
@@ -152,21 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.droidvold@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.droidvold@1.0.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.0.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.1.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0002_Product_0002.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0002_Product_0002.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3838.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_000d_Product_3839.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_005d_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_005d_Product_0001.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_005d_Product_0002.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_005d_Product_0002.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0484_Product_5738.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0484_Product_5738.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0508_Product_0110.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0508_Product_0110.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0957_Product_0006.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0957_Product_0006.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_0c45_Product_1109.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0c45_Product_1109.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_1915_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1915_Product_0001.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_7045_Product_1820.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_7045_Product_1820.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_7545_Product_0021.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_7545_Product_0021.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_7545_Product_0180.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_7545_Product_0180.kl \
-    vendor/amlogic/g12-common/proprietary/vendor/usr/keylayout/Vendor_7545_Product_0190.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_7545_Product_0190.kl
+    vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so
 
 PRODUCT_PACKAGES += \
     droidlogic.software.core \
