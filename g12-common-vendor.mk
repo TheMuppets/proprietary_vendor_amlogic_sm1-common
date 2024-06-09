@@ -6,11 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/g12-common
 
 PRODUCT_COPY_FILES += \
-    vendor/amlogic/g12-common/proprietary/odm/etc/firmware/firmware.le:$(TARGET_COPY_OUT_ODM)/etc/firmware/firmware.le \
-    vendor/amlogic/g12-common/proprietary/odm/etc/tvconfig/pq/pq.db:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/pq/pq.db \
-    vendor/amlogic/g12-common/proprietary/odm/etc/tvconfig/pq/pq_default.ini:$(TARGET_COPY_OUT_ODM)/etc/tvconfig/pq/pq_default.ini \
-    vendor/amlogic/g12-common/proprietary/odm/lib/libHwAudio_dcvdec.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dcvdec.so \
-    vendor/amlogic/g12-common/proprietary/odm/lib/libHwAudio_dtshd.so:$(TARGET_COPY_OUT_ODM)/lib/libHwAudio_dtshd.so \
     vendor/amlogic/g12-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
@@ -52,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_2G.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_2G.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_512M.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_512M.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.software.cant_save_state.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.cant_save_state.xml \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/amlogic/g12-common/proprietary/vendor/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
     vendor/amlogic/g12-common/proprietary/vendor/etc/remote.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/remote.cfg \
     vendor/amlogic/g12-common/proprietary/vendor/etc/remote.tab1:$(TARGET_COPY_OUT_VENDOR)/etc/remote.tab1 \
@@ -149,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so
 
 PRODUCT_PACKAGES += \
-    droidlogic.software.core \
     android.hardware.dumpstate@1.1-service.droidlogic \
     android.hardware.graphics.composer@2.4-service.droidlogic \
     android.hardware.health@2.1-servcie.droidlogic \
@@ -180,16 +173,20 @@ endif
 
 ifneq ($(TARGET_HAS_TEE),false)
 PRODUCT_COPY_FILES += \
+    vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.netflix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.netflix \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.playready:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.playready \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service.droidlogic \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.amlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.amlogic \
+    vendor/amlogic/g12-common/proprietary/vendor/bin/oemcrypto_test_aml:$(TARGET_COPY_OUT_VENDOR)/bin/oemcrypto_test_aml \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_hdcp:$(TARGET_COPY_OUT_VENDOR)/bin/tee_hdcp \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_key_inject:$(TARGET_COPY_OUT_VENDOR)/bin/tee_key_inject \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_preload_fw:$(TARGET_COPY_OUT_VENDOR)/bin/tee_preload_fw \
+    vendor/amlogic/g12-common/proprietary/vendor/bin/tee_provision:$(TARGET_COPY_OUT_VENDOR)/bin/tee_provision \
+    vendor/amlogic/g12-common/proprietary/vendor/bin/videomediaconvertortest:$(TARGET_COPY_OUT_VENDOR)/bin/videomediaconvertortest \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/bgroupcert.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/bgroupcert.dat \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/zgpriv.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv.dat \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/zgpriv_protected.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv_protected.dat \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.netflix.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
@@ -198,6 +195,8 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/tee_key_inject.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_key_inject.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/tee_preload_fw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_preload_fw.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/lib/libnetflixplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetflixplugin.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libplayreadymediadrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayreadymediadrmplugin.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libtee_load_video_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtee_load_video_fw.so \
@@ -206,5 +205,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.oemlock@1.0-service.droidlogic \
     android.hardware.security.keymint-service.amlogic \
+    manifest_android.hardware.drm@1.4-service.netflix \
     manifest_android.hardware.drm@1.4-service.playready
 endif
