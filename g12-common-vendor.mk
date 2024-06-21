@@ -15,7 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.dumpstate@1.1-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate@1.1-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.health@2.1-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service.droidlogic \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.power.aidl-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.aidl-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/remotecfg:$(TARGET_COPY_OUT_VENDOR)/bin/remotecfg \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.health@2.1-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.droidlogic.rc \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.power-service.libperfmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.libperfmgr.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/android.hardware.usb.gadget@1.2-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget@1.2-service.droidlogic.rc \
     vendor/amlogic/g12-common/proprietary/vendor/etc/init/bluetooth.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bluetooth.rc \
@@ -42,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_2G.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_2G.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/lowmemorykiller_512M.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lowmemorykiller_512M.txt \
     vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/android.software.cant_save_state.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.cant_save_state.xml \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
     vendor/amlogic/g12-common/proprietary/vendor/etc/remote.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/remote.cfg \
     vendor/amlogic/g12-common/proprietary/vendor/etc/remote.tab1:$(TARGET_COPY_OUT_VENDOR)/etc/remote.tab1 \
     vendor/amlogic/g12-common/proprietary/vendor/etc/remote.tab2:$(TARGET_COPY_OUT_VENDOR)/etc/remote.tab2 \
@@ -84,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamlspeed.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamlspeed.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libamltinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamltinyalsa.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdatachunkqueue_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatachunkqueue_alt.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libdisppower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisppower.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdroidaudiospdif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdroidaudiospdif.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdsm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsm.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libdvbaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdvbaudioutils.so \
@@ -107,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libomx_framework_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_framework_alt.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libomx_timed_task_queue_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_timed_task_queue_alt.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libomx_worker_peer_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_worker_peer_alt.so \
-    vendor/amlogic/g12-common/proprietary/vendor/lib/libperfmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfmgr.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libsonic_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsonic_ext.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libthreadworker_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadworker_alt.so \
@@ -126,7 +121,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.1-service.droidlogic \
     android.hardware.health@2.1-servcie.droidlogic \
-    android.hardware.power-service \
     android.hardware.thermal@2.0-service.droidlogic \
     android.hardware.usb.gadget@1.2-service.droidlogic \
     manifest_android.hardware.drm@1.4-service.widevine
