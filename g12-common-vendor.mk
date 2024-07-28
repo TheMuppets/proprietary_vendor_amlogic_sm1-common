@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget@1.2-service.droidlogic \
     vendor/amlogic/g12-common/proprietary/vendor/bin/remotecfg:$(TARGET_COPY_OUT_VENDOR)/bin/remotecfg \
-    vendor/amlogic/g12-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
     vendor/amlogic/g12-common/proprietary/vendor/etc/bluetooth/auto_pairing.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/auto_pairing.conf \
     vendor/amlogic/g12-common/proprietary/vendor/etc/bluetooth/blacklist.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/blacklist.conf \
     vendor/amlogic/g12-common/proprietary/vendor/etc/bluetooth/bt_vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_vendor.conf \
