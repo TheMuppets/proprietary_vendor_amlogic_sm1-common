@@ -8,7 +8,7 @@ soong_namespace {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.dumpstate@1.1-service.droidlogic",
+	name: "android.hardware.dumpstate@1.1-service.droidlogic.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.droidlogic.xml",
 	filename_from_src: true,
@@ -17,7 +17,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.thermal@2.0-service.droidlogic",
+	name: "android.hardware.thermal@2.0-service.droidlogic.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.droidlogic.xml",
 	filename_from_src: true,
@@ -26,7 +26,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.usb.gadget@1.2-service.droidlogic",
+	name: "android.hardware.usb.gadget@1.2-service.droidlogic.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.2-service.droidlogic.xml",
 	filename_from_src: true,
@@ -35,7 +35,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -75,7 +75,7 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.oemlock@1.0-service.droidlogic",
+	name: "android.hardware.oemlock@1.0-service.droidlogic.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml",
 	filename_from_src: true,
@@ -84,7 +84,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.keymint-service.amlogic",
+	name: "android.hardware.security.keymint-service.amlogic.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml",
 	filename_from_src: true,
@@ -93,7 +93,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.netflix",
+	name: "manifest_android.hardware.drm@1.4-service.netflix.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.netflix.xml",
 	filename_from_src: true,
@@ -102,7 +102,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.playready",
+	name: "manifest_android.hardware.drm@1.4-service.playready.xml",
 	owner: "amlogic",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml",
 	filename_from_src: true,

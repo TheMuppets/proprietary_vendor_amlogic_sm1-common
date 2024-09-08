@@ -113,10 +113,10 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libvirtualx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvirtualx.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.dumpstate@1.1-service.droidlogic \
-    android.hardware.thermal@2.0-service.droidlogic \
-    android.hardware.usb.gadget@1.2-service.droidlogic \
-    manifest_android.hardware.drm@1.4-service.widevine
+    android.hardware.dumpstate@1.1-service.droidlogic.xml \
+    android.hardware.thermal@2.0-service.droidlogic.xml \
+    android.hardware.usb.gadget@1.2-service.droidlogic.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml
 
 PRODUCT_PACKAGES += \
     libGLES_mali_vulkan.amlogic_symlink32
@@ -170,8 +170,8 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.oemlock@1.0-service.droidlogic \
-    android.hardware.security.keymint-service.amlogic \
-    manifest_android.hardware.drm@1.4-service.netflix \
-    manifest_android.hardware.drm@1.4-service.playready
+    android.hardware.oemlock@1.0-service.droidlogic.xml \
+    android.hardware.security.keymint-service.amlogic.xml \
+    manifest_android.hardware.drm@1.4-service.netflix.xml \
+    manifest_android.hardware.drm@1.4-service.playready.xml
 endif
