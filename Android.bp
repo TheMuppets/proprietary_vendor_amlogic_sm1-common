@@ -281,7 +281,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOmxBase.so"],
-			shared_libs: ["libomx_framework_alt", "libomx_worker_peer_alt", "libutils", "libcutils", "libthreadworker_alt", "libomx_clock_utils_alt", "libomx_timed_task_queue_alt", "libui", "liblog", "libbinder", "libamgralloc_ext", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libomx_framework_alt", "libomx_worker_peer_alt", "libutils", "libcutils", "libthreadworker_alt", "libomx_clock_utils_alt", "libomx_timed_task_queue_alt", "libui", "liblog", "libbinder", "libamgralloc_ext", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -315,7 +315,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOmxVideo.so"],
-			shared_libs: ["libomx_framework_alt", "libomx_worker_peer_alt", "libdatachunkqueue_alt", "libOmxBase", "libbinder", "libcutils", "liblog", "libomx_clock_utils_alt", "libomx_timed_task_queue_alt", "libstagefright_foundation", "libui", "libutils", "libion", "vendor.amlogic.hardware.systemcontrol@1.1", "libthreadworker_alt", "libsystemcontrolservice", "libamgralloc_ext", "libge2d", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libomx_framework_alt", "libomx_worker_peer_alt", "libdatachunkqueue_alt", "libOmxBase", "libbinder", "libcutils", "liblog", "libomx_clock_utils_alt", "libomx_timed_task_queue_alt", "libstagefright_foundation", "libui", "libutils", "libion", "vendor.amlogic.hardware.systemcontrol@1.1", "libthreadworker_alt", "libsystemcontrolservice", "libamgralloc_ext", "libge2d", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -842,7 +842,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmeson_display_service.so"],
-			shared_libs: ["libamgralloc_ext", "vendor.amlogic.display.meson_display_ipc@1.0", "libhidlbase", "libui", "liblog", "libcutils", "libutils", "libbase", "libion", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libamgralloc_ext", "vendor.amlogic.display.meson_display_ipc@1.0", "libhidlbase", "libui", "liblog", "libcutils", "libutils", "libbase", "libion", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
