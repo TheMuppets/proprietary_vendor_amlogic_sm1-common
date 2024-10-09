@@ -143,13 +143,10 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.netflix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.netflix \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.playready:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.playready \
     vendor/amlogic/g12-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service.droidlogic \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/oemcrypto_test_aml:$(TARGET_COPY_OUT_VENDOR)/bin/oemcrypto_test_aml \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_hdcp:$(TARGET_COPY_OUT_VENDOR)/bin/tee_hdcp \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_key_inject:$(TARGET_COPY_OUT_VENDOR)/bin/tee_key_inject \
     vendor/amlogic/g12-common/proprietary/vendor/bin/tee_preload_fw:$(TARGET_COPY_OUT_VENDOR)/bin/tee_preload_fw \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/tee_provision:$(TARGET_COPY_OUT_VENDOR)/bin/tee_provision \
-    vendor/amlogic/g12-common/proprietary/vendor/bin/videomediaconvertortest:$(TARGET_COPY_OUT_VENDOR)/bin/videomediaconvertortest \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/bgroupcert.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/bgroupcert.dat \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/zgpriv.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv.dat \
     vendor/amlogic/g12-common/proprietary/vendor/etc/drm/playready/zgpriv_protected.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv_protected.dat \
