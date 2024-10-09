@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/g12-common
 
 PRODUCT_COPY_FILES += \
+    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \
+    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-deadpool.xml \
     vendor/amlogic/g12-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
@@ -113,6 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/vendor/lib/soundfx/libvirtualx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvirtualx.so
 
 PRODUCT_PACKAGES += \
+    Adt3LauncherCustomization \
+    DeadpoolService \
     android.hardware.dumpstate@1.1-service.droidlogic.xml \
     android.hardware.thermal@2.0-service.droidlogic.xml \
     android.hardware.usb.gadget@1.2-service.droidlogic.xml \
@@ -120,23 +124,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali_vulkan.amlogic_symlink32
-
-ifeq ($(PRODUCT_IS_ATV),true)
-PRODUCT_COPY_FILES += \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-deadpool.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-lineage.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-lineage.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google_atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_atv.xml \
-    vendor/amlogic/g12-common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
-    vendor/amlogic/g12-common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
-
-PRODUCT_PACKAGES += \
-    Adt3LauncherCustomization \
-    DeadpoolService
-endif
 
 ifneq ($(TARGET_HAS_TEE),false)
 PRODUCT_COPY_FILES += \
