@@ -3,8 +3,6 @@ on early-init
 	insmod /vendor/lib/modules/optee_armtz.ko
 
 on init
-	chmod 666 /dev/tee0
-	chmod 666 /dev/teepriv0
 	start vendor.tee_supplicant
 
 on post-fs
