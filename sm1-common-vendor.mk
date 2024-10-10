@@ -144,34 +144,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali_vulkan.amlogic_symlink32
-
-ifneq ($(TARGET_HAS_TEE),false)
-PRODUCT_COPY_FILES += \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.netflix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.netflix \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.playready:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.playready \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/tee_hdcp:$(TARGET_COPY_OUT_VENDOR)/bin/tee_hdcp \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/tee_key_inject:$(TARGET_COPY_OUT_VENDOR)/bin/tee_key_inject \
-    vendor/amlogic/sm1-common/proprietary/vendor/bin/tee_preload_fw:$(TARGET_COPY_OUT_VENDOR)/bin/tee_preload_fw \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/drm/playready/bgroupcert.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/bgroupcert.dat \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/drm/playready/zgpriv.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv.dat \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/drm/playready/zgpriv_protected.dat:$(TARGET_COPY_OUT_VENDOR)/etc/drm/playready/zgpriv_protected.dat \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.netflix.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/tee-supplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee-supplicant.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/tee_hdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_hdcp.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/init/tee_preload_fw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_preload_fw.rc \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
-    vendor/amlogic/sm1-common/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
-    vendor/amlogic/sm1-common/proprietary/vendor/lib/libnetflixplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetflixplugin.so \
-    vendor/amlogic/sm1-common/proprietary/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
-    vendor/amlogic/sm1-common/proprietary/vendor/lib/libplayreadymediadrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayreadymediadrmplugin.so \
-    vendor/amlogic/sm1-common/proprietary/vendor/lib/libtee_load_video_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtee_load_video_fw.so \
-    vendor/amlogic/sm1-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so
-
-PRODUCT_PACKAGES += \
-    android.hardware.security.keymint-service.amlogic.xml \
-    manifest_android.hardware.drm@1.4-service.netflix.xml \
-    manifest_android.hardware.drm@1.4-service.playready.xml
-endif
